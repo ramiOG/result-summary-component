@@ -43,7 +43,7 @@ const App = () => {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-pale-blue font-hanken">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-white font-hanken">
       <div className="flex h-[400px] w-[500px] rounded-3xl bg-white shadow-lg">
         <ResultSummary />
         {isLoading ? (
